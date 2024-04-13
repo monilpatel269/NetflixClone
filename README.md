@@ -25,7 +25,7 @@ This project is a clone of the popular streaming service Netflix, developed usin
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your_username/NetflixClone.git`
+1. Clone the repository: `git clone https://github.com/monilpatel269/NetflixClone.git`
 2. Navigate to the project directory: `cd NetflixClone`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run migrations: `python manage.py migrate`
