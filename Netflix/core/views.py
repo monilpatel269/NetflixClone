@@ -12,8 +12,11 @@ import re
 # Create your views here.
 @login_required(login_url="login")
 def index(request):
+    movies = None
     movies = Movie.objects.all().order_by("title")
-    featured_movie = movies[len(movies) - 1]
+    featured_movie = None
+    if movies:
+        featured_movie = movies[len(movies) - 1]
 
     context = {
         "movies": movies,
